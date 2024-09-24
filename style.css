@@ -8,6 +8,24 @@ img{
     width: 100%;
 }
 
+button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+header{
+text-align: center;
+    .nav{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+}
+
 .movie{
     border: 2px solid red;
     border-radius: 15px;
@@ -16,8 +34,12 @@ img{
 }
 
 .movie_desc{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
 
 }
+
 
 .movie_content{
     display: flex;
@@ -28,6 +50,10 @@ img{
 .movie_section{
     max-width: 1200px;
     margin-inline: auto;
+
+    h2{
+        margin-bottom: 10px;
+    }
 }
 
 @media(min-width: 750px){
